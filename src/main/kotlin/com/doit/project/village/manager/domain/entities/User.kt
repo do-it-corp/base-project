@@ -6,7 +6,7 @@ import javax.persistence.*
 
 
 @Entity
-@Table(name = "user")
+@Table(name = "USER")
 data class User(
     @Id
     @GeneratedValue
